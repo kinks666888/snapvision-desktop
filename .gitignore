@@ -7,3 +7,5 @@ release/
 .env
 .env.local
 backend/bundle/
+.agents/
+.mimocode/
