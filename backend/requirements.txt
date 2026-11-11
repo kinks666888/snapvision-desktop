@@ -1,0 +1,7 @@
+# SnapVision Desktop — Python OCR Backend
+# NOTE: Python >= 3.10 required (packages use `match` syntax)
+flask>=3.0
+paddleocr>=2.7
+paddlepaddle>=3.0
+Pillow>=10
+numpy>=1.24

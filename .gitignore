@@ -1,0 +1,32 @@
+node_modules/
+dist/
+dist-electron/
+release/
+.DS_Store
+*.log
+.env
+.env.local
+backend/bundle/
+.agents/
+.mimocode/
+
+# ─── Dependencies / caches ────────────────────────────
+backend/.venv/
+**/__pycache__/
+*.pyc
+.npm-cache/
+
+# ─── Runtime data / local state ───────────────────────
+backend/history.db
+backend/history.db-*
+backend/.tmp/
+.tmp/
+
+# ─── Editor ───────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+
+# ─── Secrets ──────────────────────────────────────────
+*.key
+*.pem
